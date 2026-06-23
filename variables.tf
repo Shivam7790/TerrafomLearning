@@ -10,5 +10,9 @@
 
 variable "rgs"{
 
-  type=map(any)
+  type = map(any)
+}
+
+variable "storage_accounts" {
+  type = map(any)
 }
